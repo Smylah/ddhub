@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ddhub/static/css/main.46ee023a.css",
+    "main.js": "/ddhub/static/js/main.d7a88057.js",
+    "static/media/Rectangle139.png": "/ddhub/static/media/Rectangle139.fb1ad8f2a16720901739.png",
+    "static/media/Rectangle142.png": "/ddhub/static/media/Rectangle142.3b48e2ca165be5c9a87e.png",
+    "static/media/Rectangle153.png": "/ddhub/static/media/Rectangle153.08bea8fa8348325ddb38.png",
+    "static/media/Group-94.png": "/ddhub/static/media/Group-94.bfe042ad55d76bd6e981.png",
+    "static/media/Rectangle186.png": "/ddhub/static/media/Rectangle186.187c550e07dd20d84713.png",
+    "static/media/Rectangle184.png": "/ddhub/static/media/Rectangle184.6f82b67e381bfc366197.png",
+    "static/media/Rectangle183.png": "/ddhub/static/media/Rectangle183.862ad9b07ca6aeda516e.png",
+    "static/media/Rectangle185.png": "/ddhub/static/media/Rectangle185.d6f0f374c52da833d5a5.png",
+    "static/media/Rectangle188.png": "/ddhub/static/media/Rectangle188.09e7a82f2735d7da85a9.png",
+    "static/media/pixeltrue-support1.png": "/ddhub/static/media/pixeltrue-support1.3f998cbad54820e670e5.png",
+    "static/media/Rectangle187.png": "/ddhub/static/media/Rectangle187.eb7f2ab5b601b6097184.png",
+    "static/media/cuate.png": "/ddhub/static/media/cuate.4aea631adebbf516e1b9.png",
+    "static/media/image-9.png": "/ddhub/static/media/image-9.e12ce9ef36396bae6fb7.png",
+    "static/media/bro.png": "/ddhub/static/media/bro.29164115b720de463cab.png",
+    "index.html": "/ddhub/index.html",
+    "static/media/phone-solid.svg": "/ddhub/static/media/phone-solid.1a4c7f0a0a2165579332.svg",
+    "static/media/envelope-solid.svg": "/ddhub/static/media/envelope-solid.5c1c1b728e1ee5d36dec.svg",
+    "main.46ee023a.css.map": "/ddhub/static/css/main.46ee023a.css.map",
+    "main.d7a88057.js.map": "/ddhub/static/js/main.d7a88057.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46ee023a.css",
+    "static/js/main.d7a88057.js"
+  ]
+}
