@@ -1,0 +1,98 @@
+.contact-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 109px;
+}
+
+.man-typing {
+  background: url("./images/pixeltrue-support1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.contact {
+  padding: 0 32px;
+  margin-left: 50px;
+}
+.contact form {
+  padding: 0 24px;
+  background: #ffffff;
+  box-shadow: 0px 0px 24px 6px rgba(254, 0, 2, 0.06);
+  border-radius: 11px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  width: 100%;
+}
+.send-us {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 145.9%;
+  text-align: justify;
+  color: #736e6e;
+
+  margin-bottom: 24px;
+  margin-left: 110px;
+}
+.contact input {
+  width: 100%;
+  height: 44px;
+  display: grid;
+  background: #ffffff;
+  border: 1px solid #a48a8a;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.contact label {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #736e6e;
+}
+.contact input[type="textarea"] {
+  height: 132px;
+  margin-bottom: 36px;
+}
+
+.contact input[type="submit"] {
+  margin-bottom: 66px;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #fe0002 -116.52%, #ffaa77 159.77%);
+  border-radius: 5px;
+  color: white;
+  border: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+@media (max-width: 760px) {
+  .contact-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 0;
+    width: 100%;
+  }
+  .contact {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .man-typing {
+    display: none;
+  }
+  .contact form {
+    width: 343px;
+  }
+  .send-us {
+    font-size: 22px;
+  }
+}

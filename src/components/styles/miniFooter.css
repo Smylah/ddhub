@@ -1,0 +1,7 @@
+.socials-container {
+  display: flex;
+  justify-content: center;
+  gap: 54px;
+  opacity: 0.7;
+  margin-bottom: -53px;
+}

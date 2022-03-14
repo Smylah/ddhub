@@ -1,0 +1,62 @@
+.nav-container {
+  max-width: 100%;
+  display: flex;
+  line-height: 21px;
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 13px;
+}
+.menu {
+  display: flex;
+}
+button {
+  border: none;
+  background: none;
+}
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46.76px;
+  color: #fe0002;
+  padding-left: 9.15%;
+  flex-basis: 55.83%;
+}
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-basis: 28.6%;
+}
+.nav a {
+  text-decoration: none;
+  color: #736e6e;
+  margin-right: 48px;
+}
+.extra-padding {
+  margin-right: 17px;
+}
+.hire-us {
+  list-style: none;
+  background: linear-gradient(90deg, #fe0002 -116.52%, #ffaa77 159.77%);
+  border-radius: 5px;
+  padding: 12px 64px;
+  flex-basis: auto;
+}
+.hire-us a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media (max-width: 575px) {
+  .nav-container .nav,
+  .hire-us {
+    display: none;
+  }
+  .menu {
+  }
+}

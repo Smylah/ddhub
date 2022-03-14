@@ -1,0 +1,333 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  width: 50%px;
+}
+.remote-digital {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  padding-left: 148px;
+  color: rgba(1, 1, 1, 0.7);
+}
+.remote-gateway {
+  margin-top: 158px;
+  width: 50%px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  color: rgba(1, 1, 1, 0.7);
+}
+.chart-img {
+  padding-top: 30px;
+  width: 144px;
+  height: 31.25px;
+  background: url("./images/Group-45.png");
+}
+.laptop-img {
+  height: 151.19px;
+  background: url("./images/image-9.png");
+  margin-bottom: -20px;
+  background-repeat: no-repeat;
+}
+.gateway {
+  width: 340px;
+  height: 53px;
+  background: #fe0002;
+  opacity: 0.7;
+  align-items: center;
+  text-align: end;
+  color: #fff;
+  font-size: 48px;
+}
+
+.shredded-image {
+  margin-left: 90px;
+  width: 423px;
+  height: 442.5px;
+  background: url("./images/Group-94.png");
+}
+.text-container {
+  margin-top: 24px;
+  margin-left: 144px;
+  padding-right: 55px;
+}
+.container p {
+  font-family: "Mulish";
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+  color: #736e6e;
+}
+.question-mark {
+  background: url("./images/bro.png");
+
+  width: 181.02px;
+  height: 180px;
+}
+.why-choose-us {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 145px;
+  text-align: center;
+  margin: 119px;
+  font-family: "poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.why-choose-us h1 {
+  margin-bottom: 28px;
+}
+.why-choose-us p {
+  margin-bottom: 28px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 124%;
+}
+
+.why-choose-us a {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 700;
+  color: #010101;
+  font-style: normal;
+  border: 1px solid #010101;
+  border-radius: 5px;
+  padding: 5px 35px;
+}
+
+.hire-us-container {
+  display: grid;
+  justify-content: center;
+  font-family: "Poppins";
+}
+
+.work-with-us {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 48px;
+  background: black;
+  opacity: 0.5;
+  width: 100%px;
+  height: 200px;
+  align-items: center;
+  margin: 34px 0;
+  background-position-x: center;
+  background-image: url("./images/cuate.png");
+  background-repeat: no-repeat;
+  line-height: 62px;
+  color: #ffffff;
+}
+
+.nxt-lvl {
+  margin-bottom: 34px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+.hire-us {
+  color: #ffffff;
+  text-decoration: none;
+  width: fit-content;
+}
+.img-container {
+  width: 74%;
+  height: 900px;
+  border-radius: 11px;
+  margin-bottom: 64px;
+  margin-left: 13%;
+}
+.img-container .item {
+  display: flex;
+  height: 33.34%;
+}
+.img-container .item a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #010101;
+  background: #ffffff;
+  border: 1px solid #010101;
+  border-radius: 5px;
+}
+.img-container .img-1 {
+  width: 50%;
+  background: url("./images/Rectangle139.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-container .img-2 {
+  width: 50%;
+  background: url("./images/Rectangle142.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-container .img-3 {
+  width: 50%;
+  background: url("./images/Rectangle153.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px 0px 0px 11px;
+}
+.img-container .card {
+  width: 50%;
+  border-bottom: 1px solid #a48a8a;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-left: 48px;
+  padding-right: 70px;
+}
+.img-container h6 {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.img-container h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #010101;
+  opacity: 0.7;
+}
+.img-container p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 34px;
+}
+.other-services {
+  width: 56.67%;
+  margin-left: 21.67%;
+  text-align: center;
+  font-family: "Mulish";
+  margin-bottom: 18px;
+}
+.other-services .h1 {
+  color: black;
+  font-weight: 700;
+  font-size: 32px;
+  opacity: 0.7;
+}
+.other-services p {
+  margin-bottom: 28px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #736e6e;
+  opacity: 0.7;
+}
+.services-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 48px;
+}
+.other-services .services-container img {
+  border-radius: 11px 11px 0px 0px;
+  width: 268px;
+  height: 200px;
+}
+.other-services .services-container .img-1 {
+  background: url("./images/Rectangle183.png");
+  background-repeat: no-repeat;
+
+  width: 268px;
+  height: 200px;
+}
+.other-services .services-container .img-2 {
+  background: url("./images/Rectangle184.png");
+  background-repeat: no-repeat;
+
+  width: 268px;
+  height: 200px;
+}
+.other-services .services-container .img-3 {
+  background: url("./images/Rectangle185.png");
+  background-repeat: no-repeat;
+
+  width: 268px;
+  height: 200px;
+}
+.other-services .services-container .img-4 {
+  background: url("./images/Rectangle186.png");
+  background-repeat: no-repeat;
+
+  width: 268px;
+  height: 200px;
+}
+.other-services .services-container .img-5 {
+  background: url("./images/Rectangle187.png");
+  background-repeat: no-repeat;
+
+  width: 268px;
+  height: 200px;
+}
+.other-services .services-container .img-6 {
+  background: url("./images/Rectangle188.png");
+  background-repeat: no-repeat;
+
+  width: 268px;
+  height: 200px;
+}
+
+.service {
+  border: 1px solid rgba(164, 138, 138, 0.1);
+  width: 240px;
+  border-radius: 0px 0px 11px 11px;
+
+  height: 77px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.service a {
+  text-decoration: none;
+  color: #736e6e;
+}
+.plug-container {
+  margin-top: 133px;
+  margin-bottom: 32.9px;
+  display: grid;
+  justify-content: center;
+}
+.plug {
+  background: url("./images/Plug.png");
+  height: 80px;
+  width: 80px;
+}
+.contact-us {
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 62px;
+  color: #010101;
+  opacity: 0.7;
+}
