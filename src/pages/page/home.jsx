@@ -11,9 +11,9 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      {/* <Body /> */}
-      <ContactUs />
-      <ContactForm />
+      <Body />
+      {/* <ContactUs /> */}
+      {/* <ContactForm /> */}
       {/* <ThankYou /> */}
       <Footer />
       {/* <MiniFooter /> */}

@@ -14,11 +14,10 @@
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
-  padding-left: 148px;
   color: rgba(1, 1, 1, 0.7);
 }
 .remote-gateway {
-  margin-top: 158px;
+  margin-top: 10vh;
   width: 50%px;
 
   font-family: "Raleway";
@@ -27,8 +26,13 @@
   font-size: 48px;
   color: rgba(1, 1, 1, 0.7);
 }
+.r-d {
+  padding-right: 60px;
+}
+.padding {
+  padding-left: 140px;
+}
 .chart-img {
-  padding-top: 30px;
   width: 144px;
   height: 31.25px;
   background: url("./images/Group-45.png");
@@ -40,11 +44,9 @@
   background-repeat: no-repeat;
 }
 .gateway {
-  width: 340px;
-  height: 53px;
   background: #fe0002;
+  width: 100%;
   opacity: 0.7;
-  align-items: center;
   text-align: end;
   color: #fff;
   font-size: 48px;
@@ -82,12 +84,6 @@
   text-align: center;
   margin: 119px;
   font-family: "poppins";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: center;
 }
 .why-choose-us h1 {
   margin-bottom: 28px;
@@ -154,21 +150,17 @@
 }
 .img-container {
   width: 74%;
-  height: 900px;
   border-radius: 11px;
   margin-bottom: 64px;
   margin-left: 13%;
 }
 .img-container .item {
   display: flex;
-  height: 33.34%;
 }
 .img-container .item a {
   font-family: "Poppins";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 21px;
   color: #010101;
   background: #ffffff;
   border: 1px solid #010101;
@@ -223,9 +215,13 @@
   font-size: 20px;
   padding-bottom: 34px;
 }
+.other-services-container {
+  display: flex;
+  justify-content: center;
+}
 .other-services {
   width: 56.67%;
-  margin-left: 21.67%;
+  margin: 0 21.67%;
   text-align: center;
   font-family: "Mulish";
   margin-bottom: 18px;
@@ -330,4 +326,143 @@
   line-height: 62px;
   color: #010101;
   opacity: 0.7;
+}
+
+@media (max-width: 575px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-basis: 25% 50% 25%;
+  }
+  .remote-digital {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+    font-size: 28px;
+    padding: 0;
+    margin: 0;
+  }
+  .gateway {
+    font-size: 28px;
+    text-align: center;
+  }
+  .laptop-img {
+    background: url("./images/Vector.png");
+    background-repeat: no-repeat;
+  }
+  .why-choose-us {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 50px 0;
+  }
+  .why-choose-us h1 {
+    font-size: 22px;
+  }
+  .why-choose-us p {
+    font-size: 14px;
+  }
+  .question-mark {
+    background: url("./images/bro.png");
+    background-size: cover;
+    width: 42.25px;
+    height: 42.98px;
+  }
+
+  .img-container .item {
+    display: grid;
+    justify-content: center;
+    gap: 28px;
+    padding: 20px;
+  }
+  .img-container .item a {
+    font-size: 16px;
+    color: #010101;
+    background: #ffffff;
+    border: 1px solid #010101;
+    border-radius: 5px;
+  }
+  .img-container .img-1,
+  .img-container .img-2,
+  .img-container .img-3 {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 11px 11px 0px 0px;
+  }
+
+  .img-container .card {
+    border-bottom: none;
+    padding: 0;
+    height: 228px;
+  }
+  .img-container h6 {
+    font-size: 10px;
+    line-height: 129.9%;
+  }
+  .img-container h2 {
+    font-size: 22px;
+    line-height: 129.9%;
+  }
+
+  .img-container p {
+    font-size: 14px;
+    padding: 0;
+    line-height: 128%;
+  }
+
+  .nxt-lvl {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  .work-with-us {
+    font-size: 28px;
+    height: 100px;
+  }
+
+  .services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 19px;
+  }
+
+  .other-services .services-container .img-1,
+  .other-services .services-container .img-2,
+  .other-services .services-container .img-3,
+  .other-services .services-container .img-4,
+  .other-services .services-container .img-5,
+  .other-services .services-container .img-6 {
+    width: 160px;
+    height: 160px;
+    background-size: cover;
+  }
+  .service {
+    width: 100%;
+    height: 40px;
+  }
+
+  .service a {
+    font-size: 10px;
+  }
+  .other-services .h1 {
+    font-size: 22px;
+  }
+  .other-services p {
+    font-size: 14px;
+  }
+  .contact-us {
+    font-size: 22px;
+  }
+  .text-container {
+    margin: 0;
+    padding: 28px 18px;
+  }
+  .container p {
+    font-size: 14px;
+  }
+  .shredded-image {
+    display: none;
+  }
 }

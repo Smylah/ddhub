@@ -8,15 +8,16 @@ const Body = () => {
       <div className="container">
         <div className="remote-gateway">
           <div className="remote-digital">
-            <div>
-              <div className="r-d">
+            <div className="r-d">
+              <div className="padding">
                 <div className="chart-img" />
-                Remote Digital
+                <div>Remote</div>
+                <div>Digital</div>
               </div>
+              <div className="gateway">Gateway</div>
             </div>
             <div className="laptop-img" />
           </div>
-          <div className="gateway">Gateway</div>
 
           <div className="text-container">
             <p>
@@ -88,50 +89,51 @@ const Body = () => {
           </div>
         </div>
       </div>
-
-      <div className="other-services">
-        <div className="h1">Other services</div>
-        <p>Tap to make enquiries</p>
-        <div className="services-container">
-          <div>
-            <div className="img-1" />
-            <div className="service">
-              <a href="">Content Creation</a>
+      <div className="other-services-container">
+        <div className="other-services">
+          <div className="h1">Other services</div>
+          <p>Tap to make enquiries</p>
+          <div className="services-container">
+            <div>
+              <div className="img-1" />
+              <div className="service">
+                <a href="">Content Creation</a>
+              </div>
             </div>
-          </div>
 
-          <div>
-            <div className="img-2" />
-            <div className="service">
-              <a href="">Graphic Designing</a>
+            <div>
+              <div className="img-2" />
+              <div className="service">
+                <a href="">Graphic Designing</a>
+              </div>
             </div>
-          </div>
 
-          <div>
-            <div className="img-3" />
-            <div className="service">
-              <a href="">Video & Animation</a>
+            <div>
+              <div className="img-3" />
+              <div className="service">
+                <a href="">Video & Animation</a>
+              </div>
             </div>
-          </div>
 
-          <div>
-            <div className="img-4" />
-            <div className="service">
-              <a href="">Digital Marketing</a>
+            <div>
+              <div className="img-4" />
+              <div className="service">
+                <a href="">Digital Marketing</a>
+              </div>
             </div>
-          </div>
 
-          <div>
-            <div className="img-5" />
-            <div className="service">
-              <a href="">Social Media Marketing</a>
+            <div>
+              <div className="img-5" />
+              <div className="service">
+                <a href="">Social Media Marketing</a>
+              </div>
             </div>
-          </div>
 
-          <div>
-            <div className="img-6" />
-            <div className="service">
-              <a href="">Webiste Development</a>
+            <div>
+              <div className="img-6" />
+              <div className="service">
+                <a href="">Webiste Development</a>
+              </div>
             </div>
           </div>
         </div>
@@ -142,11 +144,11 @@ const Body = () => {
         <div className="nxt-lvl">
           Let us take your ideas and your brand to the next level
         </div>
-        <div className="hire-us-container">
-          <a className="hire-us" href="">
-            Hire us
-          </a>
-        </div>
+      </div>
+      <div className="hire-us-container">
+        <a className="hire-us" href="">
+          Hire us
+        </a>
       </div>
       <div className="plug-container">
         <div className="plug" />

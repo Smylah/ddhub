@@ -43,15 +43,22 @@
 }
 
 @media (max-width: 575px) {
+  .contact-form {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
   .contact-form form {
     display: flex;
     flex-direction: column;
     row-gap: 32px;
+    padding-left: 0;
   }
   .contact-form input {
     font-size: 14px;
     width: 339px;
     height: 55px;
+    margin-top: -10px;
   }
 
   .contact-form label {

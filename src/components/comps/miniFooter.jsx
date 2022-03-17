@@ -20,15 +20,19 @@ const MiniFooter = () => {
       </div>
 
       <div className="footer">
-        <div className="copywright">
-          <span>&#169;</span> DDHub. All rights reserved
-        </div>
         <div>
-          <a href="#">Terms and Conditions</a>
+          <div className="copywright">
+            <span>&#169;</span> DDHub. All rights reserved
+          </div>
         </div>
+        <div className="links">
+          <div className="terms">
+            <a href="#">Terms and Conditions</a>
+          </div>
 
-        <div>
-          <a href="#">Privacy</a>
+          <div className="privacy">
+            <a href="#">Privacy</a>
+          </div>
         </div>
       </div>
     </>
