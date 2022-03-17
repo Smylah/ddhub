@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ddhub/static/css/main.46ee023a.css",
-    "main.js": "/ddhub/static/js/main.d7a88057.js",
+    "main.css": "/ddhub/static/css/main.a49b7646.css",
+    "main.js": "/ddhub/static/js/main.a816b0eb.js",
     "static/media/Rectangle139.png": "/ddhub/static/media/Rectangle139.fb1ad8f2a16720901739.png",
     "static/media/Rectangle142.png": "/ddhub/static/media/Rectangle142.3b48e2ca165be5c9a87e.png",
     "static/media/Rectangle153.png": "/ddhub/static/media/Rectangle153.08bea8fa8348325ddb38.png",
@@ -19,11 +19,11 @@
     "index.html": "/ddhub/index.html",
     "static/media/phone-solid.svg": "/ddhub/static/media/phone-solid.1a4c7f0a0a2165579332.svg",
     "static/media/envelope-solid.svg": "/ddhub/static/media/envelope-solid.5c1c1b728e1ee5d36dec.svg",
-    "main.46ee023a.css.map": "/ddhub/static/css/main.46ee023a.css.map",
-    "main.d7a88057.js.map": "/ddhub/static/js/main.d7a88057.js.map"
+    "main.a49b7646.css.map": "/ddhub/static/css/main.a49b7646.css.map",
+    "main.a816b0eb.js.map": "/ddhub/static/js/main.a816b0eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.46ee023a.css",
-    "static/js/main.d7a88057.js"
+    "static/css/main.a49b7646.css",
+    "static/js/main.a816b0eb.js"
   ]
 }
