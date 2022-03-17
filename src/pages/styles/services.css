@@ -1,0 +1,8 @@
+h1 {
+  font: "raleway";
+  color: "red";
+  display: grid;
+  flex-direction: column;
+  justify-content: "center";
+  align-items: "center";
+}
