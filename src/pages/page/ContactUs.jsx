@@ -1,17 +1,17 @@
 import React from "react"
-import Body from "../../components/comps/body"
-
+import ContactForm from "../../components/comps/contactForm"
 import Footer from "../../components/comps/footer"
 import Navbar from "../../components/comps/navbar"
 
-import "../styles/home.css"
-const Home = () => {
+const ContactUs = () => {
   return (
     <>
       <Navbar />
-      <Body />
+      <ContactUs />
+      <ContactForm />
       <Footer />
     </>
   )
 }
-export default Home
+
+export default ContactUs

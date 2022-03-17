@@ -1,10 +1,12 @@
-import Home from "./pages/page/home"
+import React from "react"
+
+import Router from "./Router"
 
 function App() {
   return (
-    <div>
-      <Home />
-    </div>
+    <>
+      <Router />
+    </>
   )
 }
 
