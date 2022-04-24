@@ -1,6 +1,7 @@
 import React from "react"
 import ContactForm from "./contactForm"
 import "../styles/body.css"
+import { Link } from "react-router-dom"
 
 const Body = () => {
   return (
@@ -16,7 +17,7 @@ const Body = () => {
               </div>
               <div className="gateway">Gateway</div>
             </div>
-            <div className="laptop-img" />
+            <div className="laptop-img " />
           </div>
 
           <div className="text-container">
@@ -35,6 +36,15 @@ const Body = () => {
         </div>
         <div className="shredded-image" />
       </div>
+
+      <div className="hire-container">
+        <div className="hire-us-body">
+          <Link className="a" to="/ddhub/pricing">
+            Hire Us
+          </Link>
+        </div>
+      </div>
+
       <div className="why-choose-us">
         <div className="question-mark"></div>
         <div>
@@ -50,6 +60,7 @@ const Body = () => {
         </div>
         <div className="question-mark"></div>
       </div>
+
       <div className="img-container">
         <div className="item">
           <div className="img-1" />
